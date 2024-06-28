@@ -1,4 +1,4 @@
-Proyecto final Bioinformatica/Filogenía de algunos carnívoros
+##Proyecto final Bioinformatica/Filogenía de algunos carnívoros##
 
 La evolución y diversificación de los carnívoros se ha estudiado ampliamente a través de datos mitocondriales y nucleares. Estudios como los de Eizirik et al. (2010) y Nyakatura y Bininda-Emonds (2012) han utilizado diferentes enfoques y datos fósiles para reconstruir las relaciones filogenéticas dentro del orden Carnivora. Estos estudios han revelado tanto concordancias como discrepancias en los tiempos de divergencia entre diferentes clados, subrayando la complejidad de la evolución de los carnívoros​ (PLOS)​.
 
