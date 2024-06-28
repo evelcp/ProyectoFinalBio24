@@ -1,0 +1,57 @@
+IQ-TREE multicore version 2.3.4 COVID-edition for Windows 64-bit built Apr 27 2024
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    DESKTOP-6QIQ0S3 (AVX512, FMA3, 15 GB RAM)
+Command: C:\Users\Vane\Desktop\iqtree-2.3.4-Windows\bin\iqtree2.exe -s GenesCarnivoros.fasta -B 1000
+Seed:    789352 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Jun 26 13:32:21 2024
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file GenesCarnivoros.fasta ... Fasta format detected
+Reading fasta file: done in 0.0042313 secs
+NOTE: Change sequence name 'Canis lupus familiaris' -> Canis_lupus
+NOTE: Change sequence name 'Felis catus' -> Felis_catus
+NOTE: Change sequence name 'Odobenus rosmarus' -> Odobenus_rosmarus
+NOTE: Change sequence name 'Mustela putorius furo' -> Mustela_putorius
+NOTE: Change sequence name 'Acinonyx jubatus' -> Acinonyx_jubatus
+NOTE: Change sequence name 'Enhydra lutris kenyoni' -> Enhydra_lutris
+NOTE: Change sequence name 'Puma concolor' -> Puma_concolor
+NOTE: Change sequence name 'Lynx canadensis' -> Lynx_canadensis
+NOTE: Change sequence name 'Mustela erminea' -> Mustela_erminea
+NOTE: Change sequence name 'Lontra canadensis' -> Lontra_canadensis
+NOTE: Change sequence name 'Puma yagouaroundi' -> Puma_yagouaroundi
+NOTE: Change sequence name 'Prionailurus bengalensis' -> Prionailurus_bengalensis
+NOTE: Change sequence name 'Neovison vison' -> Neovison_vison
+NOTE: Change sequence name 'Leopardus geoffroyi' -> Leopardus_geoffroyi
+NOTE: Change sequence name 'Meles meles' -> Meles_meles
+NOTE: Change sequence name 'Lynx rufus' -> Lynx_rufus
+NOTE: Change sequence name 'Lutra lutra' -> Lutra_lutra
+NOTE: Change sequence name 'Prionailurus viverrinus' -> Prionailurus_viverrinus
+NOTE: Change sequence name 'Panthera uncia' -> Panthera_uncia
+NOTE: Change sequence name 'Mustela lutreola' -> Mustela_lutreola
+NOTE: Change sequence name 'Mustela nigripes' -> Mustela_nigripes
+ERROR: Sequence Felis_catus contains not enough characters (6149)
+ERROR: Sequence Odobenus_rosmarus contains not enough characters (5731)
+ERROR: Sequence Mustela_putorius contains not enough characters (6956)
+ERROR: Sequence Acinonyx_jubatus contains not enough characters (6757)
+ERROR: Sequence Enhydra_lutris contains not enough characters (6745)
+ERROR: Sequence Puma_concolor contains not enough characters (5625)
+ERROR: Sequence Lynx_canadensis contains not enough characters (7027)
+ERROR: Sequence Mustela_erminea contains not enough characters (6962)
+ERROR: Sequence Lontra_canadensis contains not enough characters (6953)
+ERROR: Sequence Puma_yagouaroundi contains not enough characters (6290)
+ERROR: Sequence Prionailurus_bengalensis contains not enough characters (6966)
+ERROR: Sequence Neovison_vison contains not enough characters (6942)
+ERROR: Sequence Leopardus_geoffroyi contains not enough characters (6920)
+ERROR: Sequence Meles_meles contains not enough characters (5914)
+ERROR: Sequence Lynx_rufus contains too many characters (7468)
+ERROR: Sequence Lutra_lutra contains not enough characters (6921)
+ERROR: Sequence Prionailurus_viverrinus contains too many characters (7252)
+ERROR: Sequence Panthera_uncia contains not enough characters (6898)
+ERROR: Sequence Mustela_lutreola contains not enough characters (6960)
+ERROR: Sequence Mustela_nigripes contains not enough characters (6930)
+ERROR: 

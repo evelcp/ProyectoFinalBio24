@@ -1,0 +1,39 @@
+    1  ls
+    2  cd OneDrive
+    3  s
+    4  ls
+    5  cd Escritorio/
+    6  ls
+    7  cd BIO
+    8  cd BIOINFORMATICA/
+    9  LS
+   10  ls
+   11  cd ProyectoFinalBio24/
+   12  ls
+   13  cd dara
+   14  cd data
+   15  ls
+   16  cd data
+   58  ls
+   59  ./muscle5.1.win64.exe -align "BRCA1_refseq_transcript (3)" -output alineado
+   60  ./muscle5.1.win64.exe -align "GenesCarnivoros" -output alineado
+   61  ./muscle5.1.win64.exe -align "GenesCarnivoros" -output alineado
+   62  ./muscle5.1.win64.exe
+   63  ./muscle5.1.win64.exe -align "GenesCarnivoros" -output alineado
+   64  ./muscle5.1.win64.exe -align "GenesCarnivoros.fasta" -output alineado
+   65  ./muscle5.1.win64.exe
+   66  cd ..
+   67  ls
+   68  cd iqtree-2.3.4-Windows
+   69  ls
+   70  cd bin
+   71  pwd
+   72  IQTREE=/c/Users/Vane/Desktop/iqtree-2.3.4-Windows/bin/iqtree2
+   73  $IQTREE
+   74  cd ..
+   75  cd ..
+   76  cd EVE
+   77  $IQTREE -s GenesCarnivoros.fasta -B 1000
+   78  $IQTREE -s alineado -B 1000
+   79  history 100000 > GitHUB.txt
+

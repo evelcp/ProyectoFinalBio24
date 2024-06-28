@@ -1,0 +1,269 @@
+IQ-TREE 2.3.4 COVID-edition built Apr 27 2024
+
+Input file name: alineado
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 94101
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 21 sequences with 7964 nucleotide sites
+Number of constant sites: 6081 (= 76.3561% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 6081 (= 76.3561% of all sites)
+Number of parsimony informative sites: 1005
+Number of distinct site patterns: 1044
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TVM+F+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TVM+F+G4         -24185.661   48465.321 -   0.0275   48465.891 -   0.0284   48793.507 +    0.604
+GTR+F+G4         -24181.920   48459.839 +    0.427   48460.434 +    0.435   48795.008 +    0.285
+TPM2u+F+G4       -24197.013   48484.025 - 2.39e-006   48484.548 - 2.53e-006   48798.246 +   0.0565
+TIM2+F+G4        -24193.343   48478.685 - 3.45e-005   48479.232 - 3.61e-005   48799.889 -   0.0249
+TPM3u+F+G4       -24198.116   48486.232 - 7.92e-007   48486.755 - 8.38e-007   48800.453 -   0.0187
+TIM3+F+G4        -24194.286   48480.572 - 1.34e-005   48481.118 - 1.4e-005   48801.775 -  0.00968
+HKY+F+G4         -24206.744   48501.487 - 3.86e-010   48501.988 - 4.13e-010   48808.726 -   0.0003
+TN+F+G4          -24202.995   48495.990 - 6.03e-009   48496.513 - 6.37e-009   48810.211 - 0.000143
+GTR+F+I+G4       -24185.117   48468.235 -  0.00641   48468.854 -  0.00646   48810.386 - 0.000131
+GTR+F+R2         -24185.372   48468.745 -  0.00497   48469.364 -  0.00501   48810.896 - 0.000101
+K3Pu+F+G4        -24203.431   48496.862 - 3.9e-009   48497.385 - 4.12e-009   48811.083 - 9.22e-005
+TIM+F+G4         -24199.688   48491.376 - 6.05e-008   48491.922 - 6.33e-008   48812.580 - 4.36e-005
+GTR+F+R3         -24178.759   48459.518 +    0.501   48460.188 +    0.492   48815.635 - 9.47e-006
+GTR+F+I          -24193.324   48482.647 - 4.76e-006   48483.241 - 4.86e-006   48817.816 - 3.18e-006
+GTR+F+I+R2       -24186.062   48472.125 - 0.000917   48472.769 - 0.000912   48821.259 - 5.69e-007
+GTR+F+I+R3       -24180.492   48464.983 -   0.0326   48465.680 -   0.0316   48828.083 - 1.88e-008
+K2P+G4           -24310.637   48703.275 - 5.87e-054   48703.709 - 6.49e-054   48989.565 - 1.61e-043
+TPM3+G4          -24306.337   48696.675 - 1.59e-052   48697.131 - 1.74e-052   48989.947 - 1.33e-043
+K3P+G4           -24307.997   48699.994 - 3.03e-053   48700.450 - 3.31e-053   48993.267 - 2.53e-044
+TPM2+G4          -24308.092   48700.184 - 2.75e-053   48700.640 - 3.01e-053   48993.457 - 2.31e-044
+TNe+G4           -24309.909   48703.819 - 4.47e-054   48704.275 - 4.89e-054   48997.092 - 3.74e-045
+TVMe+G4          -24301.132   48690.264 - 3.93e-051   48690.764 - 4.2e-051   48997.502 - 3.05e-045
+TIM3e+G4         -24305.634   48697.268 - 1.18e-052   48697.746 - 1.28e-052   48997.524 - 3.02e-045
+TIMe+G4          -24307.269   48700.537 - 2.31e-053   48701.015 - 2.5e-053   49000.793 - 5.88e-046
+TIM2e+G4         -24307.390   48700.781 - 2.04e-053   48701.259 - 2.21e-053   49001.036 - 5.21e-046
+SYM+G4           -24300.439   48690.878 - 2.89e-051   48691.401 - 3.05e-051   49005.099 - 6.83e-047
+GTR+F            -24307.342   48708.683 - 3.93e-055   48709.253 - 4.06e-055   49036.870 - 8.62e-054
+F81+F+G4         -24743.659   49573.319 - 6.94e-243   49573.796 - 7.5e-243   49873.574 - 1.77e-235
+JC+G4            -24856.003   49792.007 - 2.26e-290   49792.421 - 2.52e-290   50071.314 - 2.04e-278
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TVM+F+G4
+
+Rate parameter R:
+
+  A-C: 0.9574
+  A-G: 3.7259
+  A-T: 0.5673
+  C-G: 1.1610
+  C-T: 3.7259
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3154
+  pi(C) = 0.2076
+  pi(G) = 0.2388
+  pi(T) = 0.2383
+
+Rate matrix Q:
+
+  A   -0.8936    0.1451    0.6497   0.09874
+  C    0.2205    -1.072    0.2025    0.6485
+  G    0.8582     0.176    -1.208    0.1741
+  T    0.1307    0.5648    0.1744   -0.8699
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.6885
+
+ Category  Relative_rate  Proportion
+  1         0.07174        0.25
+  2         0.3581         0.25
+  3         0.9205         0.25
+  4         2.65           0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -24174.2069 (s.e. 257.5332)
+Unconstrained log-likelihood (without tree): -32372.4301
+Number of free parameters (#branches + #model parameters): 47
+Akaike information criterion (AIC) score: 48442.4137
+Corrected Akaike information criterion (AICc) score: 48442.9837
+Bayesian information criterion (BIC) score: 48770.6000
+
+Total tree length (sum of branch lengths): 0.3899
+Sum of internal branch lengths: 0.1728 (44.3169% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0001) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Mustela_lutreola' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--Mustela_lutreola
+|
+|                           +-------Odobenus_rosmarus
+|           +---------------| (100)
+|           |               |                                      +--Lynx_canadensis
+|           |               |                                   +--| (98)
+|           |               |                                   |  +------Lynx_rufus
+|           |               |                                +**| (25)
+|           |               |                                |  |     +--Acinonyx_jubatus
+|           |               |                                |  |  +--| (51)
+|           |               |                                |  |  |  |  +--Puma_concolor
+|           |               |                                |  |  |  +--| (100)
+|           |               |                                |  |  |     +--Puma_yagouaroundi
+|           |               |                                |  +--| (23)
+|           |               |                                |     |  +--Prionailurus_bengalensis
+|           |               |                                |     +--| (100)
+|           |               |                                |        +--Prionailurus_viverrinus
+|           |               |                             +--| (84)
+|           |               |                             |  +--Felis_catus
+|           |               |                          +--| (83)
+|           |               |                          |  +--Leopardus_geoffroyi
+|           |               |  +-----------------------| (100)
+|           |               |  |                       +--Panthera_uncia
+|           |               +--| (100)
+|           |                  +----------------------------Canis_lupus
+|        +--| (100)
+|        |  +-----Meles_meles
+|     +--| (100)
+|     |  |     +--Enhydra_lutris
+|     |  |  +--| (100)
+|     |  |  |  +--Lutra_lutra
+|     |  +--| (100)
+|     |     +--Lontra_canadensis
+|  +--| (100)
+|  |  +--Neovison_vison
++--| (100)
+|  +--Mustela_erminea
+|
+|  +--Mustela_nigripes
++--| (100)
+   +--Mustela_putorius
+
+Tree in newick format:
+
+(Mustela_lutreola:0.0020236868,(((((Odobenus_rosmarus:0.0234620814,((((((Lynx_canadensis:0.0016482853,Lynx_rufus:0.0206247764)98:0.0020058726,((Acinonyx_jubatus:0.0066829200,(Puma_concolor:0.0020722529,Puma_yagouaroundi:0.0020888671)100:0.0022372002)51:0.0006769691,(Prionailurus_bengalensis:0.0002871531,Prionailurus_viverrinus:0.0019086976)100:0.0032632878)23:0.0008907278)25:0.0001150856,Felis_catus:0.0043218556)84:0.0008887355,Leopardus_geoffroyi:0.0052616978)83:0.0011944655,Panthera_uncia:0.0046389266)100:0.0718847918,Canis_lupus:0.0867653604)100:0.0112980067)100:0.0479754821,Meles_meles:0.0191302683)100:0.0038772584,((Enhydra_lutris:0.0056975378,Lutra_lutra:0.0061390834)100:0.0026815961,Lontra_canadensis:0.0092748083)100:0.0068221603)100:0.0083563192,Neovison_vison:0.0084056384)100:0.0042964599,Mustela_erminea:0.0042242126)100:0.0025991315,(Mustela_nigripes:0.0016011857,Mustela_putorius:0.0008645085)100:0.0017400814);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -24174.264733
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Mustela_lutreola
+|
+|                           +------Odobenus_rosmarus
+|           +---------------| (100)
+|           |               |                                         +--Lynx_canadensis
+|           |               |                                      +--| (98)
+|           |               |                                      |  +------Lynx_rufus
+|           |               |                                   +--| (39)
+|           |               |                                   |  |  +--Prionailurus_bengalensis
+|           |               |                                   |  +--| (100)
+|           |               |                                   |     +--Prionailurus_viverrinus
+|           |               |                                +--| (25)
+|           |               |                                |  |  +--Acinonyx_jubatus
+|           |               |                                |  +--| (51)
+|           |               |                                |     |  +--Puma_concolor
+|           |               |                                |     +--| (100)
+|           |               |                                |        +--Puma_yagouaroundi
+|           |               |                             +--| (84)
+|           |               |                             |  +--Felis_catus
+|           |               |                          +--| (83)
+|           |               |                          |  +--Leopardus_geoffroyi
+|           |               |  +-----------------------| (100)
+|           |               |  |                       +--Panthera_uncia
+|           |               +--| (100)
+|           |                  +----------------------------Canis_lupus
+|        +--| (100)
+|        |  +-----Meles_meles
+|     +--| (100)
+|     |  |     +--Enhydra_lutris
+|     |  |  +--| (100)
+|     |  |  |  +--Lutra_lutra
+|     |  +--| (100)
+|     |     +--Lontra_canadensis
+|  +--| (100)
+|  |  +--Neovison_vison
++--| (100)
+|  +--Mustela_erminea
+|
+|  +--Mustela_nigripes
++--| (100)
+   +--Mustela_putorius
+
+
+Consensus tree in newick format: 
+
+(Mustela_lutreola:0.0020253544,(((((Odobenus_rosmarus:0.0234811931,(((((((Lynx_canadensis:0.0017943578,Lynx_rufus:0.0212212054)98:0.0018612794,(Prionailurus_bengalensis:0.0002906003,Prionailurus_viverrinus:0.0019069778)100:0.0031022266)39:0.0002837740,(Acinonyx_jubatus:0.0067960150,(Puma_concolor:0.0020743130,Puma_yagouaroundi:0.0020940021)100:0.0021139628)51:0.0006693027)25:0.0000735189,Felis_catus:0.0044210180)84:0.0008936785,Leopardus_geoffroyi:0.0053470630)83:0.0012130571,Panthera_uncia:0.0046383677)100:0.0727585555,Canis_lupus:0.0867166990)100:0.0113241753)100:0.0480998523,Meles_meles:0.0191391747)100:0.0038840736,((Enhydra_lutris:0.0056994298,Lutra_lutra:0.0061413788)100:0.0026827487,Lontra_canadensis:0.0092781350)100:0.0068240112)100:0.0083603312,Neovison_vison:0.0084088798)100:0.0042979942,Mustela_erminea:0.0042258440)100:0.0026001815,(Mustela_nigripes:0.0016016179,Mustela_putorius:0.0008653658)100:0.0017405612);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t alineado.treefile -m "TVM{0.957396,3.72588,0.567261,1.16096}+F{0.315362,0.207555,0.238764,0.238319}+G4{0.688506}" --length 7964
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s alineado --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s alineado --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Wed Jun 26 13:33:27 2024
+Total CPU time used: 10.359375 seconds (0h:0m:10s)
+Total wall-clock time used: 14.014731 seconds (0h:0m:14s)
+
