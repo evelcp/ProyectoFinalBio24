@@ -25,5 +25,6 @@ La filogenia de los mamíferos carnívoros, o Carnivora, es compleja y diversa, 
 
 # Bibliografía
 Tarquini, SD, Chemisquy, MA y Prevosti, FJ Evolución del carnívoro en mamíferos carnívoros actuales (Carnivora, Didelphimorphia, Dasyuromorphia): dieta, filogenia y alometría. J Mammal Evol 27 , 95–109 (2020). https://doi.org/10.1007/s10914-018-9448-7
+
 Hassanin A, Veron G, Ropiquet A, Jansen van Vuuren B, Lécu A, et al. (2021) Corrección: Historia evolutiva de Carnivora (Mammalia, Laurasiatheria) inferida de genomas mitocondriales. MÁS UNO 16(3): e0249387
 
